@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ucv.android.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Proyecto_examenII">
+        <activity android:name=".Formulario_Covid"></activity>
+        <activity android:name=".Fragmentos.MA_FragmentContenedor" />
+        <activity android:name=".BD.Vista.MA_SQLite" />
+        <activity android:name=".BD.Vista.MA_RegistrarCurso" />
+        <activity android:name=".ListView.DetalleItem" />
+        <activity android:name=".ListView.ListView" />
+        <activity android:name=".Spinner.Spinner" />
+        <activity android:name=".BD.Vista.MainActivity_Registrar" />
+        <activity android:name=".BD.Vista.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

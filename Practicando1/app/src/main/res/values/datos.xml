@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="datos">
+        <item>Seleccione</item>
+        <item>Calculadora</item>
+        <item>Formulario Covid</item>
+        <item>Practica con Intent</item>
+        <item>Cockies</item>
+    </string-array>
+
+</resources>

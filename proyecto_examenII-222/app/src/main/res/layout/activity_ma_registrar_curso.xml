@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MA_RegistrarCurso">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="Registrar Curso"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/MA_RC_editCurso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Ingrese Curso"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/MA_RC_btnRegistrar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:onClick="GrabarCurso"
+        android:text="Registrar"
+        app:layout_constraintEnd_toEndOf="@+id/MA_RC_editCurso"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/MA_RC_editCurso"
+        app:layout_constraintTop_toBottomOf="@+id/MA_RC_editCurso" />
+
+    <Button
+        android:id="@+id/MA_RC_btnEliminar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="ELIMINAR"
+        app:layout_constraintEnd_toEndOf="@+id/MA_RC_btnRegistrar"
+        app:layout_constraintStart_toStartOf="@+id/MA_RC_btnRegistrar"
+        app:layout_constraintTop_toBottomOf="@+id/MA_RC_btnRegistrar" />
+
+    <Button
+        android:id="@+id/MA_RC_btnListar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:onClick="ListarCursos"
+        android:text="LISTAR"
+        app:layout_constraintEnd_toEndOf="@+id/MA_RC_btnEliminar"
+        app:layout_constraintStart_toStartOf="@+id/MA_RC_btnEliminar"
+        app:layout_constraintTop_toBottomOf="@+id/MA_RC_btnEliminar" />
+
+    <TextView
+        android:id="@+id/MA_RC_txtListar"
+        android:layout_width="0dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="80dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/MA_RC_btnListar"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/MA_RC_btnListar"
+        app:layout_constraintTop_toBottomOf="@+id/MA_RC_btnListar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

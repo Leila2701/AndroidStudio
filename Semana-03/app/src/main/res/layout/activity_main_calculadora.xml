@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDCCD2"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextNumero1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Ingresar numero 1"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/Calculadora"
+        app:layout_constraintStart_toStartOf="@+id/Calculadora"
+        app:layout_constraintTop_toBottomOf="@+id/Calculadora" />
+
+    <EditText
+        android:id="@+id/editTextNumero2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Ingresar numero 2"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editTextNumero1"
+        app:layout_constraintStart_toStartOf="@+id/editTextNumero1"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumero1" />
+
+    <Button
+        android:id="@+id/btnSuma"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="32dp"
+        android:onClick="onClickSuma"
+        android:text="SUMA"
+        app:backgroundTint="#E91E63"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewResultado"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/btnResta"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClickResta"
+        android:text="RESTA"
+        app:backgroundTint="#E91E63"
+        app:layout_constraintBottom_toBottomOf="@+id/btnSuma"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnSuma"
+        app:layout_constraintTop_toTopOf="@+id/btnSuma"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/btnMultiplicacion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClickMultiplicacion"
+        android:text="MULTIPLICACION"
+        app:backgroundTint="#E91E63"
+        app:layout_constraintEnd_toEndOf="@+id/btnSuma"
+        app:layout_constraintStart_toStartOf="@+id/btnSuma"
+        app:layout_constraintTop_toBottomOf="@+id/btnSuma"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/btnDivision"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClickDivision"
+        android:text="DIVISION"
+        app:backgroundTint="#E91E63"
+        app:layout_constraintEnd_toEndOf="@+id/btnResta"
+        app:layout_constraintStart_toEndOf="@+id/btnSuma"
+        app:layout_constraintTop_toBottomOf="@+id/btnResta"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/Calculadora"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:text="Calculadora"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewResultado"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:hint="@string/resultado"
+        app:layout_constraintEnd_toEndOf="@+id/editTextNumero2"
+        app:layout_constraintStart_toStartOf="@+id/editTextNumero2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumero2" />
+
+    <Button
+        android:id="@+id/btn_limpiar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:onClick="onClickLimpiar"
+        android:text="LIMPIAR"
+        app:backgroundTint="#9C27B0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textViewResultado"
+        app:layout_constraintTop_toBottomOf="@+id/btnMultiplicacion"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/btnregresar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:onClick="onClickRegresar"
+        android:text="REGRESAR"
+        app:backgroundTint="#9C27B0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_limpiar"
+        app:layout_constraintVertical_bias="0.022"
+        tools:ignore="OnClick" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnIntelDial"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDCCD2"
+    tools:context=".IntentsImplicito">
+
+    <EditText
+        android:id="@+id/txtTexto"
+        android:layout_width="261dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="108dp"
+        android:ems="10"
+        android:hint="INGRESAR TEXTO"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSearchWeb"
+        android:layout_width="158dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="92dp"
+        android:text="Search Web"
+        app:backgroundTint="#E91E63"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTexto" />
+
+    <Button
+        android:id="@+id/btnActionSend"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Action Send"
+        app:backgroundTint="#E91E63"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSearchWeb" />
+
+    <Button
+        android:id="@+id/btnIntel"
+        android:layout_width="158dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:text="Intel Dial"
+        app:backgroundTint="#E91E63"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnActionSend" />
+</androidx.constraintlayout.widget.ConstraintLayout>

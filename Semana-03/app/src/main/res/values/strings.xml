@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Examen Parcial</string>
+    <string name="semana_03">Formularios</string>
+    <string name="button">Ingresar</string>
+    <string name="progesar">Progresar</string>
+    <string name="textview3">TextView</string>
+    <string name="TextView">0%</string>
+    <string name="TextView2">0%</string>
+    <string name="cantidad7">cantidad2</string>
+    <string name="textview4">TextView</string>
+    <string name="textview5">TextView</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="textview">TextView</string>
+    <string name="textinforme">textInforme</string>
+    <string name="btn_div">DIVISION</string>
+    <string name="btn_multi">MULTIPLICACIÓN</string>
+    <string name="btn_resta">RESTA</string>
+    <string name="btn_suma">SUMA</string>
+    <string name="ingrese_numero1" />
+    <string name="ingrese_numero2" />
+    <string name="suma" />
+    <string name="resta" />
+    <string name="multiplicacion" />
+    <string name="division" />
+    <string name="resultado" />
+</resources>

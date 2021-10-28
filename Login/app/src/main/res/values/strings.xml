@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="user_ingresar">Nombre de usuario o correo electrónico</string>
+    <string name="pass_ingresar">Contraseña</string>
+    <string name="Checkbox_recordar">¿Recordar Contraseña?</string>
+
+</resources>

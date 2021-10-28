@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">" Midterm exam"</string>
+    <string name="button">Pay in</string>
+    <string name="semana_03">" Forms"</string>
+    <string name="progesar">" Progress"</string>
+    <string name="btn_div">DIVISION</string>
+    <string name="btn_multi">MULTIPLICATION</string>
+    <string name="btn_resta">SUBTRACTION</string>
+    <string name="btn_suma">" SUM"</string>
+    <string name="cantidad7">" quantity2"</string>
+    <string name="cantidad">" Quantity"</string>
+    <string name="textview3">TextView</string>
+    <string name="TextView">0%</string>
+    <string name="TextView2">0%</string>
+    <string name="textview4">TextView</string>
+    <string name="textview5">TextView</string>
+    <string name="textview">TextView</string>
+    <string name="textinforme">" textReport"</string>
+</resources>

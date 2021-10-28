@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="misDatos">
+        <item>Seleccionar</item>
+        <item>Calculadora</item>
+        <item>Verificar Síntomas Covid</item>
+        <item>Intents implicito</item>
+        <item>Promedio de Notas</item>
+
+    </string-array>
+
+</resources>

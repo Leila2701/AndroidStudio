@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">proyectodesarrollado</string>
+    <string name="btn_regresar">REGRESAR</string>
+    <string name="btn_registrar">REGISTRAR</string>
+    <string name="ing_nombre">INGRESE EL NOMBRE</string>
+    <string name="ing_apellido">INGRESE EL APELLIDO</string>
+</resources>

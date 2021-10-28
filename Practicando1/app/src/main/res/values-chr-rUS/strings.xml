@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practicando1</string>
+    <string name="botonMainIr">Go</string>
+    <string name="primerNumero">Input First Number</string>
+    <string name="segundoNumero">Input Second Number</string>
+    <string name="botonCalculaoraSuma">Plus</string>
+    <string name="botonCalculaoraResta">Rest</string>
+    <string name="botonCalculaoraMultiplicación">Production</string>
+    <string name="botonCalculaoraDivisión">Division</string>
+    <string name="nombreCovid">Name</string>
+    <string name="EdadCovid">Age</string>
+    <string name="Sexo">Sex</string>
+    <string name="masculino">Male</string>
+    <string name="femenino">Female</string>
+    <string name="fiebre">fever</string>
+    <string name="dolorgargante">Throat Pain</string>
+    <string name="temperatura">Temperature</string>
+    <string name="saturacion">Saturation</string>
+    <string name="estornudo">Sneeze</string>
+    <string name="tos">cough</string>
+</resources>

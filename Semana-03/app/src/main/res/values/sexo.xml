@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="OP_SEXO">
+        <item>Selecionar:</item>
+        <item>Masculino</item>
+        <item>Fenenino</item>
+
+    </string-array>
+</resources>
